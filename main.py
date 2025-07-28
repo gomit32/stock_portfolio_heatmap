@@ -55,7 +55,7 @@ def plot_correlation_heatmap(correlation_matrix, image_filename):
     plt.savefig(image_filename)
     plt.close()
 
-# Create a CNN model
+# Creating a CNN model
 def create_cnn_model(input_shape=(224, 224, 3)):
     model = Sequential([
         Input(shape=input_shape),
